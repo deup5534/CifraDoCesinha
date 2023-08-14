@@ -1,4 +1,10 @@
-﻿Console.WriteLine("---------CIFRA DE CESAR---------\n");
+// //string stringNumero = "321";
+// int inteiroNumero = int.Parse(stringNumero);
+// Console.WriteLine(inteiroNumero);  // Isso imprimirá 321
+
+
+
+Console.WriteLine("---------CIFRA DE CESAR---------\n");
 
 
 Console.Write("Escreva aqui sua senha, vou te mostrar como ela ficaria criptografada.\n");
