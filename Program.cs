@@ -8,7 +8,7 @@ Console.WriteLine("---------CIFRA DE CESAR---------\n");
 
 
 Console.Write("Escreva aqui sua senha, vou te mostrar como ela ficaria criptografada.\n");
-string senha = Console.ReadLine();
+string segredoASerEscrito = Console.ReadLine();
 
 Console.Write("Agora, a chave que você deseja. (Por favor, digite de 1 até 27).\n");
 int chave = Convert.ToInt32(Console.ReadLine());
@@ -16,7 +16,7 @@ int chave = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("***CRIPTOGRAFANDO***");
 Thread.Sleep(2000);
 
-string cifraDeCesar = senha
+string cifraDeCesar = segredoASerEscrito
 
 .Replace("a", "65")
 .Replace("á", "65")
@@ -57,10 +57,13 @@ string cifraDeCesar = senha
 .Replace("z", "90");
 
 
+int cifraDeCesar = int.Parse(segredoASerEscrito);
+
 if (chave >= 28)
 
 {
     Console.WriteLine("\n'-'\nChei das graça né");
+    Console.WriteLine("\nEscreve certo isso...");
 }
 
 else{
